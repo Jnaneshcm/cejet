@@ -13,4 +13,5 @@ Feature: CEApplication.feature
     Then user verifies the texts are displayed "PurchaseProfile" "Purchase Profile"
     Then user verifies the texts are displayed "Segments" "Segments"
     Then user click on the Button "HomeImage"
+    Then user verifies the page is displayed "Sales Associate Home"
   
