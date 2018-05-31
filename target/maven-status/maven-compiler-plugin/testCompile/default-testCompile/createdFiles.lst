@@ -1,0 +1,8 @@
+com\cejet\util\CEJETWebdriverBase.class
+com\cejet\pages\common\CustomerDetailPage.class
+com\cejet\runner\CEJETTestRunnerSuit.class
+com\cejet\steps\CEJETBaseStep.class
+com\cejet\pages\CEJETBasePage.class
+com\cejet\pagefactory\PageFactory.class
+com\cejet\pages\common\LoginPage.class
+com\cejet\steps\CEJETStandardSteps.class

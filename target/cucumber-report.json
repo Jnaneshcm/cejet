@@ -1,0 +1,272 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 37016010263,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CEJETStandardSteps.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "TestCase for the Demo of CE JET Application",
+        "description": "",
+        "id": "ceapplication.feature;testcase-for-the-demo-of-ce-jet-application",
+        "after": [
+          {
+            "result": {
+              "duration": 1831495726,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CEJETStandardSteps.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 140567032,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on \"Login Page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login Page",
+                  "offset": 12
+                }
+              ],
+              "location": "CEJETStandardSteps.user_is_on(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 200405826,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the data in text box \"Password\" \"welcome1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password",
+                  "offset": 34
+                },
+                {
+                  "val": "welcome1",
+                  "offset": 45
+                }
+              ],
+              "location": "CEJETStandardSteps.user_enters_the_below_data_in_text_box(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 143297700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on the Button \"ViewProject\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ViewProject",
+                  "offset": 26
+                }
+              ],
+              "location": "CEJETStandardSteps.user_click_on_the_Button(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21355551736,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on \"CustomerDetailPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CustomerDetailPage",
+                  "offset": 12
+                }
+              ],
+              "location": "CEJETStandardSteps.user_is_on(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5033770681,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verifies the page is displayed \"Customer Detail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customer Detail",
+                  "offset": 37
+                }
+              ],
+              "location": "CEJETStandardSteps.user_verifies_the_page_is_displayed(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 482434250,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user verifies the texts are displayed \"CustomerEngagement\" \"Customer Engagement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CustomerEngagement",
+                  "offset": 39
+                },
+                {
+                  "val": "Customer Engagement",
+                  "offset": 60
+                }
+              ],
+              "location": "CEJETStandardSteps.user_verifies_the_texts_are_displayed(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 555957561,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user verifies the texts are displayed \"CustomerInformation\" \"Customer Information\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CustomerInformation",
+                  "offset": 39
+                },
+                {
+                  "val": "Customer Information",
+                  "offset": 61
+                }
+              ],
+              "location": "CEJETStandardSteps.user_verifies_the_texts_are_displayed(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 530554474,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user verifies the texts are displayed \"Attributes\" \"Attributes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Attributes",
+                  "offset": 39
+                },
+                {
+                  "val": "Attributes",
+                  "offset": 52
+                }
+              ],
+              "location": "CEJETStandardSteps.user_verifies_the_texts_are_displayed(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 501438975,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user verifies the texts are displayed \"PurchaseProfile\" \"Purchase Profile\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PurchaseProfile",
+                  "offset": 39
+                },
+                {
+                  "val": "Purchase Profile",
+                  "offset": 57
+                }
+              ],
+              "location": "CEJETStandardSteps.user_verifies_the_texts_are_displayed(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 438753821,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user verifies the texts are displayed \"Segments\" \"Segments\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Segments",
+                  "offset": 39
+                },
+                {
+                  "val": "Segments",
+                  "offset": 50
+                }
+              ],
+              "location": "CEJETStandardSteps.user_verifies_the_texts_are_displayed(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6686684179,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click on the Button \"HomeImage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HomeImage",
+                  "offset": 26
+                }
+              ],
+              "location": "CEJETStandardSteps.user_click_on_the_Button(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "CEApplication.feature",
+    "description": "",
+    "id": "ceapplication.feature",
+    "keyword": "Feature",
+    "uri": "features/CEJET.feature"
+  }
+]
